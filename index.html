@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Tachyonic Antitelephone</title>
+    <script src="js/snap.svg-min.js"></script>
+</head>
+<style>
+
+    body {
+        font-family: 'Times New Roman', serif;
+        font-size: x-large;
+        background-color: lightgray;
+    }
+
+    h3 {
+        margin: 0;
+        position: absolute;
+        top: 10px;
+        left: 50px;
+    }
+
+    .parentContainer {
+        display: flex;
+        padding: 25px 25px 10px 25px;
+        background-color: lightsteelblue;
+
+    }
+    .imageContainer {
+        text-align: center;
+        flex: 0 0 45%;
+        margin: 25px 25px 0 25px;
+        padding: 25px;
+        background-color: lightslategrey;
+    }
+    .textContainer {
+        width: 45%;
+        margin: 25px 25px 0 25px;
+        float: 1;
+        padding: 50px 25px 50px 25px;
+        background-color: antiquewhite;
+
+    }
+
+    .buttonContainer {
+        background-color: lightsteelblue;
+        padding: 10px 25px 10px 25px;
+    }
+
+    #svg1 {
+        margin: auto;
+    }
+</style>
+<body>
+
+<div class="parentContainer">
+    <h3>Tachyonic Antitelephone</h3>
+    <div class="imageContainer" >
+        <svg width="700" height="700" id="svg1">
+        </svg>
+    </div>
+    <div class="textContainer">
+    </div>
+
+</div>
+<div class="buttonContainer">
+    <button id="prev">Prev</button>
+    <button id="repeat">Repeat</button>
+    <button id="next">Next</button>
+</div>
+<script src="js/textContent.js"></script>
+<script src="js/graphic.js"></script>
+</body>
+</html>
